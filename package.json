@@ -7,8 +7,6 @@
     "node": ">=4"
   },
   "scripts": {
-    "build:docs": "jsdoc -c jsdoc.json",
-    "clean": "shx rm -r ./docs",
     "test": "mocha test/ark.js test/*/*"
   },
   "directories": {
