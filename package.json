@@ -9,7 +9,6 @@
   "scripts": {
     "build:docs": "jsdoc -c jsdoc.json",
     "clean": "shx rm -r ./docs",
-    "lint": "eslint .",
     "test": "mocha test/ark.js test/*/*"
   },
   "directories": {
@@ -39,7 +38,6 @@
     "crypto-browserify": "=3.11.0",
     "ecdsa": "^0.7.0",
     "ecurve": "^1.0.5",
-    "js-nacl": "tonyg/js-nacl#6dc1417",
     "randombytes": "^2.0.3",
     "secp256k1": "^3.2.2",
     "typeforce": "^1.10.3",
